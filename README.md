@@ -1,5 +1,7 @@
 # MUFC player cards
-- Programmes creating football player cards
+- Programmes creating football player cards.
+
+cd into the MUFC directory to run the python files
 
 - top_trumps.py
     - Randomly selects 2 players. 

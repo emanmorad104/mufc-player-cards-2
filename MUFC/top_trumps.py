@@ -5,7 +5,7 @@ from players_info import players_info
 from ascii_results import win_art, lose_art, draw_art
 
 # Function to create a player card
-def create_player_card(player_name, attributes, position, player_image_path, show_values=True, image_size=(500, 500)):
+def create_player_card(player_name, attributes, position, player_image_path, show_values=True, image_size=(300, 300)):
     # Open and resize the player's image
     player_image = Image.open(player_image_path)
     player_image = player_image.resize(image_size, Image.LANCZOS)

@@ -26,7 +26,7 @@ def correct_image_orientation(image):
     return image
 
 # Function to create a player card for a specific player with a football club logo
-def create_player_card(player_name, player_info, logo_image_path, image_size=(300, 300)):
+def create_player_card(player_name, player_info, logo_image_path, image_size=(500, 500)):
     # Extract player information
     player_image_path = player_info['image_path']
     player_position = player_info['Position']

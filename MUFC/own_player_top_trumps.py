@@ -77,7 +77,7 @@ def show_combined_cards(left_card, right_card):
 
 # Function to get user input for attribute
 def get_user_input():
-    options = ["Shooting accuracy", "Passing accuracy", "Appearances"]
+    options = ["Shooting accuracy", "Tackles", "Appearances"]
     print("Choose an attribute:")
     for i, option in enumerate(options, 1):
         print(f"{i}. {option}")
